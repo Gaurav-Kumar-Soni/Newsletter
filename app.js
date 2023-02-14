@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
   const url = "https://us21.api.mailchimp.com/3.0/lists/cce6756d2c";
   const options = {
     method:"POST",
-    auth: "sonigaurav950:9d703ed50509c837e1607eb0b642b62f-us21"
+    auth: "sonigaurav950:dea0c70ca52d1a168b3c27e9d596b5cc-us21"
   }
 
   const request = https.request(url, options, function (response) {
@@ -58,10 +58,9 @@ app.post("/failure",function(req, res){
  res.redirect("/");
 });
 
-//    9d703ed50509c837e1607eb0b642b62f-us21
+//    dea0c70ca52d1a168b3c27e9d596b5cc-us21
 
 //  cce6756d2c.
-
 app.listen(process.env.PORT || 3000, function () {
   console.log("this server is running in port 3000");
 });
