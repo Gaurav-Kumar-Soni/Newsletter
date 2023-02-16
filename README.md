@@ -5,7 +5,7 @@ To install this project on your local machine, follow these steps:
 
 1. Clone the project from Github using the following command:
 ```bash
-git clone https://github.com/your-username/newsletter-signup.git
+git clone https://github.com/sonigaurav950/Newsletter.git
 ```
 2. Install the required dependencies using npm.
 ```bash
